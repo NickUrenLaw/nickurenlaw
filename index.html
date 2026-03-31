@@ -5,8 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nick Uren Law</title>
   <style>
+.brand {
+  margin-bottom: 0.75rem;
+}
+
+.brand-name {
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.brand-tagline {
+  font-size: 0.95rem;
+  color: #d7dee8;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 0.2rem;
+}
     body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; background: #ffffff; }
-    header { background: #0f1c2e; color: white; padding: 1.5rem 2rem; }
+    header {
+  background: #0f1c2e;
+  color: white;
+  padding: 1.25rem 2rem 1rem 2rem;
+  border-bottom: 3px solid #b08d57;
+}
     nav a { color: white; margin-right: 20px; text-decoration: none; font-weight: 500; }
     nav a:hover { text-decoration: underline; }
     .container { padding: 2rem; max-width: 1000px; margin: auto; }
@@ -21,7 +44,10 @@
 <body>
 
 <header>
-  <h1>Nick Uren Law</h1>
+  <div class="brand">
+    <div class="brand-name">Nick Uren Law</div>
+    <div class="brand-tagline">International Business and Tax Advisory</div>
+  </div>
   <nav>
     <a href="index.html">Home</a>
     <a href="articles.html">Articles</a>
